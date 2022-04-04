@@ -27,6 +27,7 @@ preprocessed dataset will appear in outputs_ACDC.Finally,you will see
 --outputs_ACDC
 ```
 ## Train
+We use [UNet](https://arxiv.org/abs/1505.04597) as our segmentation backbone.
 You can directly run train.py, for example:
 ```
 python train.py --log_dir ../log/ACDC0404
@@ -47,7 +48,7 @@ Log file would be organized as follows:
 Specify something in `test.py`(line20-27),and run
 `python test.py`.
 Results will be shown in `code/results`. If you set `save_visualization = True`, visualization results (nii.gz format) will be shown in results too.
-We use two metrics for evaluation: Dice and Hausdorff distance.The results are reported as follows:
+We use two metrics for evaluation: Dice and Hausdorff distance. The results are reported as follows:
 
 | | Dice(%) | HD(mm) |
 | :------ | :------ | :------ |
@@ -56,5 +57,5 @@ We use two metrics for evaluation: Dice and Hausdorff distance.The results are r
 | LV |94.6 |19.63|
 | mean |90.6|21.56|
 
-We don't finetune hyperparameters, so you can easily repreduce this results.
+We don't finetune hyperparameters carefully, so you can easily repreduce this results.
 If you use ACDC dataset in your paper, remember to cite paper [Deep Learning Techniques for Automatic MRI Cardiac Multi-Structures Segmentation and Diagnosis: Is the Problem Solved?](https://ieeexplore.ieee.org/document/8360453).
