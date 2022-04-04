@@ -1,5 +1,8 @@
 # ACDCSeg
 Medical image segmentation for Automated Cardiac Diagnosis Challenge(ACDC) dataset.
+## Dependcies
+We use PyTorch 1.8, please follow officical guide to install PyTorch.
+Other packages include SimpleITK,numpy,tensorboardX,medpy 
 ## Prepare dataset
 Please download dataset from [ACDC challenge](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) and organize data as follows
 ```
@@ -40,7 +43,7 @@ Log file would be organized as follows:
 --outputs_ACDC
 ```
 ## Test
-specify something in ''' test.py'''(line20-27),and run
+Specify something in ''' test.py'''(line20-27),and run
 '''
 python test.py
 '''
