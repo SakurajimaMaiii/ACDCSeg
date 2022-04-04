@@ -44,9 +44,9 @@ Log file would be organized as follows:
 --outputs_ACDC
 ```
 ## Test
-Specify something in `test.py'(line20-27),and run
-'python test.py'.
-Results will be shown in code/results. If you set 'save_visualization = True', visualization results (nii.gz format) will be shown in results too.
+Specify something in `test.py`(line20-27),and run
+`python test.py`.
+Results will be shown in `code/results`. If you set `save_visualization = True`, visualization results (nii.gz format) will be shown in results too.
 We use two metrics for evaluation: Dice and Hausdorff distance.The results are reported as follows:
 
 | | Dice(%) | HD(mm) |
