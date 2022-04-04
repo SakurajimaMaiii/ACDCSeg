@@ -1,8 +1,9 @@
 # ACDCSeg
-Medical image segmentation for Automated Cardiac Diagnosis Challenge(ACDC) dataset.
+Medical image segmentation for Automated Cardiac Diagnosis Challenge(ACDC) dataset.This code is clean and easy to follow.
+This code is for my own practice, but I also hope it's useful for you.
 ## Dependcies
 We use PyTorch 1.8, please follow officical guide to install PyTorch.
-Other packages include SimpleITK,numpy,tensorboardX,medpy 
+Other packages include SimpleITK,numpy,tensorboardX,medpy.
 ## Prepare dataset
 Please download dataset from [ACDC challenge](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) and organize data as follows
 ```
@@ -43,11 +44,9 @@ Log file would be organized as follows:
 --outputs_ACDC
 ```
 ## Test
-Specify something in ''' test.py'''(line20-27),and run
-'''
-python test.py
-'''
-Results will be shown in code/results. If you set '''save_visualization = True''', visualization results (nii.gz format) will be shown in results too.
+Specify something in `test.py'(line20-27),and run
+'python test.py'.
+Results will be shown in code/results. If you set 'save_visualization = True', visualization results (nii.gz format) will be shown in results too.
 We use two metrics for evaluation: Dice and Hausdorff distance.The results are reported as follows:
 
 | | Dice(%) | HD(mm) |
