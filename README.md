@@ -2,8 +2,14 @@
 Medical image segmentation for Automated Cardiac Diagnosis Challenge(ACDC) dataset.This code is clean and easy to follow.
 This code is for my own practice, but I also hope it's useful for you.
 ## Dependcies
-We use PyTorch 1.8, please follow officical guide to install PyTorch.
-Other packages include SimpleITK,numpy,tensorboardX,medpy.
+We use PyTorch 1.8 and Python 3.8, please follow officical guide to install PyTorch.
+Other packages include:
+'''
+simpleitk==2.0.2
+numpy==1.19.2
+tensorboardX==2.4
+medpy==0.4.0
+'''
 ## Prepare dataset
 Please download dataset from [ACDC challenge](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) and organize data as follows
 ```
