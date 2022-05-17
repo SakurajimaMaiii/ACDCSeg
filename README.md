@@ -64,4 +64,19 @@ We use two metrics for evaluation: Dice and Hausdorff distance. The results are 
 | mean |90.6|21.56|
 
 We don't finetune hyperparameters carefully, so you can easily repreduce this results.
-If you use ACDC dataset in your paper, remember to cite paper [Deep Learning Techniques for Automatic MRI Cardiac Multi-Structures Segmentation and Diagnosis: Is the Problem Solved?](https://ieeexplore.ieee.org/document/8360453).
+If you use ACDC dataset in your paper, remember to cite paper
+```
+@article{Bernard2018,
+  doi = {10.1109/tmi.2018.2837502},
+  url = {https://doi.org/10.1109/tmi.2018.2837502},
+  year = {2018},
+  month = nov,
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  volume = {37},
+  number = {11},
+  pages = {2514--2525},
+  author = {Olivier Bernard and Alain Lalande and Clement Zotti and Frederick Cervenansky and Xin Yang and Pheng-Ann Heng and Irem Cetin and Karim Lekadir and Oscar Camara and Miguel Angel Gonzalez Ballester and Gerard Sanroma and Sandy Napel and Steffen Petersen and Georgios Tziritas and Elias Grinias and Mahendra Khened and Varghese Alex Kollerathu and Ganapathy Krishnamurthi and Marc-Michel Rohe and Xavier Pennec and Maxime Sermesant and Fabian Isensee and Paul Jager and Klaus H. Maier-Hein and Peter M. Full and Ivo Wolf and Sandy Engelhardt and Christian F. Baumgartner and Lisa M. Koch and Jelmer M. Wolterink and Ivana Isgum and Yeonggul Jang and Yoonmi Hong and Jay Patravali and Shubham Jain and Olivier Humbert and Pierre-Marc Jodoin},
+  title = {Deep Learning Techniques for Automatic {MRI} Cardiac Multi-Structures Segmentation and Diagnosis: Is the Problem Solved?},
+  journal = {{IEEE} Transactions on Medical Imaging}
+}
+```
