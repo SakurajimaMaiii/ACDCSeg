@@ -80,3 +80,5 @@ If you use ACDC dataset in your paper, remember to cite paper
   journal = {{IEEE} Transactions on Medical Imaging}
 }
 ```
+## Acknowledgement
+The code is greatly inspired by (heavily from) the [UA-MT](https://github.com/yulequan/UA-MT).
