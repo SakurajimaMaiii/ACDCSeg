@@ -24,7 +24,7 @@ Please download dataset from [ACDC challenge](https://www.creatis.insa-lyon.fr/C
 then 
 ```
 cd code
-run preprocess.py
+python preprocess.py
 ```
 preprocessed dataset will appear in outputs_ACDC.Finally,you will see
 ```
@@ -38,7 +38,7 @@ You can directly run train.py, for example:
 ```
 python train.py --log_dir ../log/ACDC0404
 ```
-Log file will be in log/ACDC0404.
+Log file will be in `log/ACDC0404`.
 Log file would be organized as follows:
 ```
 --code
